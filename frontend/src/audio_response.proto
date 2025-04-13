@@ -1,0 +1,10 @@
+// proto/audio_response.proto
+syntax = "proto3";
+
+package audio;
+
+message AudioResponse {
+  string transcript = 1;
+  string emotion = 2;
+  float confidence = 3;
+}
